@@ -1,0 +1,67 @@
+- !<AssetImportMetadata/8b745977-571c-4ef3-8db4-428983aef643>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> d714a211-de63-49b0-b4cd-b3af265affef
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> d714a211-de63-49b0-b4cd-b3af265affef
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> c341ba1b-5758-44f3-bbbe-dd3d354b371e
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/c341ba1b-5758-44f3-bbbe-dd3d354b371e>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 290e1a09-a92d-42b5-a4ea-b5fbc85fbe47
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    padding: false
+    panelWidth: false
+    stepHeight: false
+    stepLabels: false
+    title: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - title: Inspection checklist
+      stepLabels: !<string[]>
+        - Check transfer rollers
+        - Check sensor alignment
+        - Confirm path is clear
+      panelWidth: !<float> 30.000000
+      padding: 1.800000
+      stepHeight: 4.200000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<b>FlowSight Inspection Checklist</b>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Content"}'
+    - '// @input string title = "Inspection checklist" {"hint":"Panel title"}'
+    - '// @input string[] stepLabels = {"Check transfer rollers","Check sensor alignment","Confirm path is clear"} {"hint":"Step labels, in order"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Layout"}'
+    - '// @input float panelWidth = 30 {"hint":"Panel width in cm (before the root scale is applied)", "widget":"slider", "min":22, "max":40, "step":0.5}'
+    - '// @input float padding = 1.8 {"hint":"Inner padding in cm", "widget":"slider", "min":0.5, "max":4, "step":0.1}'
+    - '// @input float stepHeight = 4.2 {"hint":"Height of each step button in cm", "widget":"slider", "min":3, "max":6, "step":0.1}'
+    - '// @ui {"widget":"group_end"}'

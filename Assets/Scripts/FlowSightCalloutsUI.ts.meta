@@ -1,0 +1,99 @@
+- !<AssetImportMetadata/8ac03b29-dd5f-4ddb-8a97-2b1a34cb3458>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 9e65a4ba-86c6-4085-a364-e760aec4d400
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 9e65a4ba-86c6-4085-a364-e760aec4d400
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 6ad89719-3795-4f18-a05a-c58efb9fd9b6
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/6ad89719-3795-4f18-a05a-c58efb9fd9b6>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 9628b9d9-6412-4a66-837b-e6aa7fa11b6a
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    labelScale: false
+    labels: false
+    leaderHeights: false
+    leaderMaterial: false
+    leaderMesh: false
+    markerMaterial: false
+    markerMesh: false
+    markerSize: false
+    pathAnchor: false
+    rollersAnchor: false
+    sensorAnchor: false
+    zoneAnchor: false
+    zoneLabel: false
+    zoneLeaderHeight: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - rollersAnchor: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      sensorAnchor: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      pathAnchor: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      zoneAnchor: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      labels: !<string[]>
+        - 1 · Transfer rollers
+        - 2 · Sensor alignment
+        - 3 · Path clear
+      zoneLabel: Possible congestion · transfer zone
+      leaderHeights: !<float[]>
+        - 42.000000
+        - 22.000000
+        - 48.000000
+      zoneLeaderHeight: !<float> 62.000000
+      markerMesh: !<reference.RenderMesh> 00000000-0000-0000-0000-000000000000
+      leaderMesh: !<reference.RenderMesh> 00000000-0000-0000-0000-000000000000
+      markerMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      leaderMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      markerSize: 4.500000
+      labelScale: 1.900000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<b>FlowSight Spatial Callouts</b>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Anchors (points on the model)"}'
+    - '// @input SceneObject rollersAnchor {"hint":"Transfer point between the infeed rollers and the transfer belt"}'
+    - '// @input SceneObject sensorAnchor {"hint":"Sensor on the infeed upright of the scanning cage"}'
+    - '// @input SceneObject pathAnchor {"hint":"Centre of the transfer belt"}'
+    - '// @input SceneObject zoneAnchor {"hint":"Centre of the congestion zone (Warning tag)"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Labels"}'
+    - '// @input string[] labels = {"1 · Transfer rollers","2 · Sensor alignment","3 · Path clear"} {"hint":"Callout labels, in checklist order"}'
+    - '// @input string zoneLabel = "Possible congestion · transfer zone" {"hint":"Congestion tag label shown in the Warning state"}'
+    - '// @input float[] leaderHeights = {42,22,48} {"hint":"Leader line heights in cm, in checklist order"}'
+    - '// @input float zoneLeaderHeight = 62 {"hint":"Leader line height for the congestion tag in cm"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Visuals"}'
+    - '// @input Asset.RenderMesh markerMesh {"hint":"Sphere mesh used for the markers"}'
+    - '// @input Asset.RenderMesh leaderMesh {"hint":"Cylinder mesh used for the leader lines"}'
+    - '// @input Asset.Material markerMaterial {"hint":"Unlit material cloned for each marker"}'
+    - '// @input Asset.Material leaderMaterial {"hint":"Unlit material cloned for each leader line"}'
+    - '// @input float markerSize = 4.5 {"hint":"Marker diameter in cm", "widget":"slider", "min":1, "max":10, "step":0.5}'
+    - '// @input float labelScale = 1.9 {"hint":"Scale applied to the labels (they are authored for 110 cm viewing)", "widget":"slider", "min":1, "max":3, "step":0.05}'
+    - '// @ui {"widget":"group_end"}'

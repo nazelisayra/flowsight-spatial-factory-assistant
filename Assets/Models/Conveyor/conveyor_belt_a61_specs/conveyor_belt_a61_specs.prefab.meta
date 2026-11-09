@@ -1,0 +1,2702 @@
+- !<AssetImportMetadata/ea24297d-970e-4a52-aa1a-3a91e7c9b094>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 5ca56e93-f332-405d-bfe8-dfd48ec4390e
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 5ca56e93-f332-405d-bfe8-dfd48ec4390e
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 8059ff9d-eb74-4c67-ac79-a140b0235fed
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/02806cfb-5e08-4b62-726e-8ec47b6746a4>
+  PrefabRemaps:
+    []
+  Name: sm_conveyor_belt_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 5d58b175-06e6-4e51-960b-13f7b97b5069
+  Mesh: !<reference> 5bd9d3ce-5342-44c7-8259-234cfb232deb
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/031c04ff-7400-40a8-722b-5b9ab93b1ca0>
+  PrefabRemaps:
+    []
+  Name: sm_roller11_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ea916fb-ad57-4d09-a17d-829138e49d76
+  Mesh: !<reference> 5e6afeea-9be4-457c-8ed6-d07142dfb6a5
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/03732a23-f309-409a-5961-c07f59cd7ffe>
+  PrefabRemaps:
+    []
+  Name: sm_conveyor_belt_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> bfd92bd6-bb9f-4f49-5f80-5698cf49fa3b
+  Components:
+    []
+- !<RenderMeshVisual/03793f02-cd7d-4303-42fa-dc40a6295ef8>
+  PrefabRemaps:
+    []
+  Name: sm_conveyor_belt_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> fb3f38e8-0017-4a62-ab80-4d7c98ba1e5a
+  Mesh: !<reference> 98834f5a-8258-4de3-8561-100baae20a97
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/03d5804d-43c9-455e-4bc7-09424c39f733>
+  PrefabRemaps:
+    []
+  Name: sm_roller31_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.501449, y: 0.740355, z: 3.617816}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2d09f002-94f2-4bf8-6f68-60cd445cff29
+  Components:
+    []
+- !<SceneObject/05599a35-159b-4b43-494a-37650739e935>
+  PrefabRemaps:
+    []
+  Name: sm_roller22_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.501449, y: 0.740355, z: 2.997672}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 0a23b33c-713e-498c-6251-7e8c6e3d01e7
+  Components:
+    []
+- !<RenderMeshVisual/088a51d6-9efd-469c-680d-4d99d4b2c086>
+  PrefabRemaps:
+    []
+  Name: sm_conveyor_belt_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> afcda175-f85f-428b-bd65-a5e504243f0b
+  Mesh: !<reference> 37a1ae6c-341c-4d67-abab-43e888342a6a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/08ab5fe7-5d43-4b9c-6638-e4cf5f097210>
+  PrefabRemaps:
+    []
+  Name: sm_button01_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.125075, y: 1.414738, z: 2.555563}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> b7e4eac2-2b3b-4245-79be-17dbc8b44cf1
+  Components:
+    []
+- !<SceneObject/08d56543-6ca9-4f19-7833-cc9b6a5d185b>
+  PrefabRemaps:
+    []
+  Name: sm_roller01_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.501465, y: 0.740355, z: 0.037661}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> f0bc8f20-c0fb-4fdd-5908-87b770e16c47
+  Components:
+    []
+- !<SceneObject/0a23b33c-713e-498c-6251-7e8c6e3d01e7>
+  PrefabRemaps:
+    []
+  Name: sm_roller22_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.451587, y: 0.451587, z: 0.451587}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> fa02b1e3-ec66-467e-4776-38c5207bc354
+- !<SceneObject/0a470894-d055-402d-62a2-8bc591219acd>
+  PrefabRemaps:
+    []
+  Name: sm_roller09_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.501465, y: 0.740355, z: 0.588899}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 657c57e9-75df-440a-7b2d-df1949beac7e
+  Components:
+    []
+- !<RenderMeshVisual/0aca721d-6086-4d3b-7594-5764818c95a2>
+  PrefabRemaps:
+    []
+  Name: sm_conveyor_belt_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> f55ee0ce-57a0-48fd-bb43-d7b1e2d00c90
+  Mesh: !<reference> 13812183-816a-4661-bf87-778cb24db058
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/0dabfec9-023c-409b-5e79-932a691fb92d>
+  PrefabRemaps:
+    []
+  Name: sm_roller30_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.501449, y: 0.740355, z: 3.548911}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> b161096b-e317-4c00-488e-371a21ba4637
+  Components:
+    []
+- !<SceneObject/0e60305d-4f59-4667-5d0a-0aba95b7bc07>
+  PrefabRemaps:
+    []
+  Name: sm_roller13_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.501465, y: 0.740355, z: 0.864519}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> f981aa29-e35e-4b2e-48df-c477454caf1c
+  Components:
+    []
+- !<SceneObject/0f0230bb-e300-46bc-6cef-1b111f6c37e3>
+  PrefabRemaps:
+    []
+  Name: sm_roller07_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.451586, y: 0.451586, z: 0.451586}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 709e2a89-123d-4a37-5bb2-195dd8b74946
+- !<SceneObject/1382e936-3444-41c3-71ff-ef08249d7676>
+  PrefabRemaps:
+    []
+  Name: sm_roller08_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.451586, y: 0.451586, z: 0.451586}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 38ed7cb0-c910-44e8-4c76-768507c1e2d9
+- !<SceneObject/1a4a41de-7db8-40dc-7739-8a7fa5813c0a>
+  PrefabRemaps:
+    []
+  Name: sm_roller19_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.451587, y: 0.451587, z: 0.451587}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e6035158-c6f2-4366-73ce-a0dac7bf7cf0
+- !<RenderMeshVisual/1c2b6698-e804-41b4-65cb-14e845a0d76a>
+  PrefabRemaps:
+    []
+  Name: sm_roller10_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ea916fb-ad57-4d09-a17d-829138e49d76
+  Mesh: !<reference> 9f11d898-486f-487a-9512-1b4ca971abe0
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/1dc6c55a-79c1-499f-6ad1-2837547e4509>
+  PrefabRemaps:
+    []
+  Name: Geometry
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 08ab5fe7-5d43-4b9c-6638-e4cf5f097210
+    - !<own> eafad30b-a364-4981-4094-5154fd2295c6
+    - !<own> 9c8de689-f26b-47e5-5838-273365e8c4bb
+    - !<own> b5756cac-67ba-460d-5733-f0524aed08fd
+    - !<own> f1baa0c8-3f98-45f5-4e70-e3f0dee261f2
+    - !<own> 71eaa01f-5824-4709-4451-4e28918db50c
+    - !<own> 03732a23-f309-409a-5961-c07f59cd7ffe
+    - !<own> 7bb8807d-0017-4da3-7209-d005f961afdc
+    - !<own> 08d56543-6ca9-4f19-7833-cc9b6a5d185b
+    - !<own> 4d7448c0-ed2e-4f57-5a8c-ce0e462ff65a
+    - !<own> 6df50e93-5729-48ef-70ed-90c302f0e27f
+    - !<own> c5d4a024-b98f-414d-7d08-e58351558677
+    - !<own> 62deac29-609f-499b-5eeb-0e7f30ee11f3
+    - !<own> d941a07c-eca3-4224-7a75-e52e9ec05aaa
+    - !<own> efd762ce-2774-46fe-4897-e42b46a8c8be
+    - !<own> 52eac471-28b5-4f07-4a7c-6abcd4d0bdff
+    - !<own> 0a470894-d055-402d-62a2-8bc591219acd
+    - !<own> 9d92c2eb-ffcc-400b-4acc-6abab1ba2fa8
+    - !<own> 3cbd0075-e347-4f77-461e-b473073e8651
+    - !<own> 68efc11d-21ac-48e5-5b9e-f44e36ec1685
+    - !<own> 0e60305d-4f59-4667-5d0a-0aba95b7bc07
+    - !<own> 6b64610c-d0b5-457a-518a-0a9bfc5ac76e
+    - !<own> 8c9a520a-0c6c-4dd6-5497-700176068160
+    - !<own> 2093d68f-6984-4e69-4b1c-278ff342cdbf
+    - !<own> 273ef4c7-a8bc-4b8b-55dd-8ccdfdb890f7
+    - !<own> fb6d260d-7954-405a-4c09-dfc6c49ab137
+    - !<own> 897728df-0a93-4fd8-4a5f-93b97bf85c9a
+    - !<own> d68ca029-cc3b-4c15-747b-bc26d73cd72d
+    - !<own> 805f420a-431f-4525-527d-4c2343a37fb0
+    - !<own> 05599a35-159b-4b43-494a-37650739e935
+    - !<own> ba1658b7-49ea-4330-4d65-378d17594fd1
+    - !<own> 851e0edc-83fd-4613-749e-8ecef6e26450
+    - !<own> 914c2344-f156-410b-6a0b-e2cf7f6f39a9
+    - !<own> 68dc5190-720f-4f81-57fc-2cb4bb52decc
+    - !<own> 9a16347e-093d-43b2-596a-0b04de18db2c
+    - !<own> b9bfc72a-673c-40a6-71e6-86c750f9d940
+    - !<own> d6e24008-dfe2-4bb7-448a-d534e2e8ce58
+    - !<own> 0dabfec9-023c-409b-5e79-932a691fb92d
+    - !<own> 03d5804d-43c9-455e-4bc7-09424c39f733
+    - !<own> ac493e19-b34e-455f-7ad3-53e13eddf022
+    - !<own> ad0fdb63-84c2-4f93-4cd1-64ef76fc8c2d
+    - !<own> f8d2e246-4ca3-40c4-6285-1406d2ef9e3d
+    - !<own> 259b8cdf-008e-4c64-7165-343395f92a25
+    - !<own> ed3b95c3-189c-4c8a-43f9-ec9ba5aec3e1
+  Components:
+    []
+- !<SceneObject/2093d68f-6984-4e69-4b1c-278ff342cdbf>
+  PrefabRemaps:
+    []
+  Name: sm_roller16_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.501465, y: 0.740355, z: 1.071234}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9d0c36fc-b248-409b-4d83-fac2a9e86db2
+  Components:
+    []
+- !<SceneObject/21623c8e-30c4-4cc1-5d04-6b374b806de7>
+  PrefabRemaps:
+    []
+  Name: sm_roller05_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.451586, y: 0.451586, z: 0.451586}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 34b4edae-421d-4bdb-7a9f-7d2d72234925
+- !<RenderMeshVisual/2435a79b-c179-4a04-40aa-b677ab5603bb>
+  PrefabRemaps:
+    []
+  Name: sm_conveyor_belt_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 2c3a23e0-7079-4db3-9307-bfcdc73050f7
+  Mesh: !<reference> 0addd3b3-106f-4391-aaa9-ce7822894a86
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/24490221-9476-47d2-6101-92c8b712bdee>
+  PrefabRemaps:
+    []
+  Name: sm_roller20_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ea916fb-ad57-4d09-a17d-829138e49d76
+  Mesh: !<reference> 0a6cf48d-f997-4e4a-b408-3b860440cb4b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/259b8cdf-008e-4c64-7165-343395f92a25>
+  PrefabRemaps:
+    []
+  Name: sm_roller35_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.501445, y: 0.740355, z: 3.893435}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> a0e47245-ec16-46fd-5e32-4402d1e59654
+  Components:
+    []
+- !<SceneObject/25b1f7aa-25f3-4889-578d-eb4885e1f713>
+  PrefabRemaps:
+    []
+  Name: sm_roller17_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.451586, y: 0.451586, z: 0.451586}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 868265a0-925d-4681-60d1-34165d618351
+- !<RenderMeshVisual/26e64eb1-9a2c-4b53-561a-30f6f380c1f2>
+  PrefabRemaps:
+    []
+  Name: sm_button01_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 54a79ca0-2b0a-4613-bf6e-92d91489e5ef
+  Mesh: !<reference> 510ca5fd-74af-44bf-aafe-8398fb647eac
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/273ef4c7-a8bc-4b8b-55dd-8ccdfdb890f7>
+  PrefabRemaps:
+    []
+  Name: sm_roller17_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.501465, y: 0.740355, z: 1.140139}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 25b1f7aa-25f3-4889-578d-eb4885e1f713
+  Components:
+    []
+- !<SceneObject/28335fb4-c40a-4aee-4ec1-86190f01b7ff>
+  PrefabRemaps:
+    []
+  Name: sm_roller23_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.451587, y: 0.451587, z: 0.451587}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 91f36900-44aa-4a20-5fef-bab7a49db08a
+- !<SceneObject/28cca36a-e515-4a5d-7943-2d02ba6c5714>
+  PrefabRemaps:
+    []
+  Name: sm_roller18_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.451586, y: 0.451586, z: 0.451586}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2fe9bd02-b20d-4684-4727-fa9840f43920
+- !<SceneObject/2921f268-11de-4062-4e3c-009bbccc530f>
+  PrefabRemaps:
+    []
+  Name: sm_roller26_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.451587, y: 0.451587, z: 0.451587}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 39dc4437-590c-4d8a-60c5-526095449829
+- !<SceneObject/2d09f002-94f2-4bf8-6f68-60cd445cff29>
+  PrefabRemaps:
+    []
+  Name: sm_roller31_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.451587, y: 0.451587, z: 0.451587}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8356a198-e1ae-4487-6653-71429ba1aeb0
+- !<RenderMeshVisual/2e28077c-3aa9-4a32-7307-c1a5f49a2f5f>
+  PrefabRemaps:
+    []
+  Name: sm_roller28_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ea916fb-ad57-4d09-a17d-829138e49d76
+  Mesh: !<reference> 2b35bd63-c575-4e4a-9ff9-1686eec56e7b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/2ee928a2-41d1-40e7-5ee9-9d6b6bf2ee3f>
+  PrefabRemaps:
+    []
+  Name: sm_button04_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.007406, y: 0.004816, z: -0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.023110, y: 0.023110, z: 0.023110}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ae401bfb-48bc-4327-6719-5d40e20e40ad
+- !<RenderMeshVisual/2fe9bd02-b20d-4684-4727-fa9840f43920>
+  PrefabRemaps:
+    []
+  Name: sm_roller18_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ea916fb-ad57-4d09-a17d-829138e49d76
+  Mesh: !<reference> 9c570605-62e2-489e-b2fc-eada26e5a445
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/310fbb47-449e-4ff6-7341-f4922f0c3391>
+  PrefabRemaps:
+    []
+  Name: sm_roller13_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ea916fb-ad57-4d09-a17d-829138e49d76
+  Mesh: !<reference> 72072ce9-d10e-4654-9ad3-731e1948d064
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/318bb48c-0e2e-4dee-6460-9724e30167e6>
+  PrefabRemaps:
+    []
+  Name: sm_conveyor_belt_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> e2afd3f0-d40c-4188-95ac-897be978bd8c
+  Mesh: !<reference> fd760644-05b8-4e3e-aed4-1722dda35847
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/327073da-4369-4a9c-707f-0951509392bd>
+  PrefabRemaps:
+    []
+  Name: sm_roller06_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ea916fb-ad57-4d09-a17d-829138e49d76
+  Mesh: !<reference> 72ebe2e6-8c3c-4e2d-b735-570d0cce42f1
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/335023d1-11ba-440c-7332-50ae4bf6ed3c>
+  PrefabRemaps:
+    []
+  Name: sm_roller33_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ea916fb-ad57-4d09-a17d-829138e49d76
+  Mesh: !<reference> 0fb1a2da-0be9-4c31-80ce-595c62697d6f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/34b4edae-421d-4bdb-7a9f-7d2d72234925>
+  PrefabRemaps:
+    []
+  Name: sm_roller05_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ea916fb-ad57-4d09-a17d-829138e49d76
+  Mesh: !<reference> fd13ec25-4a95-4fc3-816a-4110f53b0a5f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/387b1ae3-f39d-4ad6-5ff5-b23291c00e71>
+  PrefabRemaps:
+    []
+  Name: sm_conveyor_belt_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> e5039781-40bb-4f9c-b8fe-363e740c0909
+  Mesh: !<reference> cf5f9832-9eac-4c3a-94bf-86d1fff9faa3
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/38ed7cb0-c910-44e8-4c76-768507c1e2d9>
+  PrefabRemaps:
+    []
+  Name: sm_roller08_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ea916fb-ad57-4d09-a17d-829138e49d76
+  Mesh: !<reference> a981f3a7-7fed-4c92-8806-9e07f2fbb28b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/39dc4437-590c-4d8a-60c5-526095449829>
+  PrefabRemaps:
+    []
+  Name: sm_roller26_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ea916fb-ad57-4d09-a17d-829138e49d76
+  Mesh: !<reference> 1e23589a-aabc-41f3-a170-0d29d4ef8c67
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/3b5f11ee-3d00-4381-6ae7-272cecde58df>
+  PrefabRemaps:
+    []
+  Name: sm_roller03_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.451586, y: 0.451586, z: 0.451586}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> fa2ebf48-196e-4917-628b-c43bdfff3b62
+- !<SceneObject/3cbd0075-e347-4f77-461e-b473073e8651>
+  PrefabRemaps:
+    []
+  Name: sm_roller11_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.501465, y: 0.740355, z: 0.726710}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4917b7ca-5221-4b7a-534d-e7be8eedca4a
+  Components:
+    []
+- !<SceneObject/3e2a7a03-56f5-44d6-4719-c604d5c7ac9c>
+  PrefabRemaps:
+    []
+  Name: sm_roller21_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.451587, y: 0.451587, z: 0.451587}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ef271010-7661-4632-5aef-15a56f9868cc
+- !<RenderMeshVisual/3f8e6431-8a99-4afa-462e-5dd9c35ca3e0>
+  PrefabRemaps:
+    []
+  Name: sm_glass_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 7eea9555-7caf-43a3-90db-51abd11a8213
+  Mesh: !<reference> 26453143-dc08-4ee0-9d52-64cde697c751
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/4161520e-e964-4a72-7a0b-2eebfc7abba6>
+  PrefabRemaps:
+    []
+  Name: sm_roller33_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.451587, y: 0.451587, z: 0.451587}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 335023d1-11ba-440c-7332-50ae4bf6ed3c
+- !<SceneObject/4399ef05-f4be-4d61-6771-82bf82317d7f>
+  PrefabRemaps:
+    []
+  Name: sm_roller02_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.451586, y: 0.451586, z: 0.451586}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b12b35cc-998b-49b0-7fbd-4efa48ed45ec
+- !<SceneObject/4917b7ca-5221-4b7a-534d-e7be8eedca4a>
+  PrefabRemaps:
+    []
+  Name: sm_roller11_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.451586, y: 0.451586, z: 0.451586}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 031c04ff-7400-40a8-722b-5b9ab93b1ca0
+- !<RenderMeshVisual/4bedf4e7-f912-4b22-524e-6e045f575e56>
+  PrefabRemaps:
+    []
+  Name: sm_roller12_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ea916fb-ad57-4d09-a17d-829138e49d76
+  Mesh: !<reference> 9afff5bf-fd9e-4eba-b181-8a1daa598760
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/4d7448c0-ed2e-4f57-5a8c-ce0e462ff65a>
+  PrefabRemaps:
+    []
+  Name: sm_roller02_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.501465, y: 0.740355, z: 0.106566}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4399ef05-f4be-4d61-6771-82bf82317d7f
+  Components:
+    []
+- !<SceneObject/50a6740b-ddf2-4160-5c71-c9c955b83e60>
+  PrefabRemaps:
+    []
+  Name: sm_roller10_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.451586, y: 0.451586, z: 0.451586}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1c2b6698-e804-41b4-65cb-14e845a0d76a
+- !<RenderMeshVisual/52c1f9cd-3d6f-4f70-7e2f-fb38fb874849>
+  PrefabRemaps:
+    []
+  Name: sm_roller04_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ea916fb-ad57-4d09-a17d-829138e49d76
+  Mesh: !<reference> 0803338a-548f-467d-85a6-bb4a8b0d84ab
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/52eac471-28b5-4f07-4a7c-6abcd4d0bdff>
+  PrefabRemaps:
+    []
+  Name: sm_roller08_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.501465, y: 0.740355, z: 0.519995}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1382e936-3444-41c3-71ff-ef08249d7676
+  Components:
+    []
+- !<RenderMeshVisual/532e3d54-d28d-4afb-79fa-01c88d6e2fe1>
+  PrefabRemaps:
+    []
+  Name: sm_conveyor_belt_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> cfa04cb4-d295-4843-9211-8959b6a48783
+  Mesh: !<reference> 32f87ecf-37e1-4989-a590-34e7ccf9e372
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/5688d798-46e7-4577-7db2-9736be95daf0>
+  PrefabRemaps:
+    []
+  Name: sm_conveyor_belt_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 615e6fd2-11b5-4b03-a664-29d2f4493363
+  Mesh: !<reference> abf8c187-8de3-4a9a-b837-b09f83024f37
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/591f8d1c-8b95-4c2d-5c0a-755d502c5137>
+  PrefabRemaps:
+    []
+  Name: sm_roller30_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ea916fb-ad57-4d09-a17d-829138e49d76
+  Mesh: !<reference> 0c74e9f4-894c-4f18-a24c-a0679364b489
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/59af6943-96c9-48f4-6853-da74fd5eb576>
+  PrefabRemaps:
+    []
+  Name: sm_glass_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.001933, y: 0.197764, z: -0.002754}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.644231, y: 0.644231, z: 0.644231}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3f8e6431-8a99-4afa-462e-5dd9c35ca3e0
+- !<SceneObject/61604004-7711-4d40-7e83-e3d31e0ca80e>
+  PrefabRemaps:
+    []
+  Name: Scene
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1dc6c55a-79c1-499f-6ad1-2837547e4509
+  Components:
+    []
+- !<SceneObject/617fe473-5fb2-470a-4050-ea7e37049a74>
+  PrefabRemaps:
+    []
+  Name: sm_roller36_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.451587, y: 0.451587, z: 0.451587}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 717318a2-74fe-415a-579d-c13c2ed32ac9
+- !<SceneObject/628228cd-89b1-4b66-7d64-b7a13cc3f743>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 61604004-7711-4d40-7e83-e3d31e0ca80e
+  Components:
+    []
+- !<SceneObject/62deac29-609f-499b-5eeb-0e7f30ee11f3>
+  PrefabRemaps:
+    []
+  Name: sm_roller05_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.501465, y: 0.740355, z: 0.313280}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 21623c8e-30c4-4cc1-5d04-6b374b806de7
+  Components:
+    []
+- !<SceneObject/63490e69-9836-4707-6336-e14fd2a82f1c>
+  PrefabRemaps:
+    []
+  Name: sm_roller04_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.451586, y: 0.451586, z: 0.451586}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 52c1f9cd-3d6f-4f70-7e2f-fb38fb874849
+- !<SceneObject/657c57e9-75df-440a-7b2d-df1949beac7e>
+  PrefabRemaps:
+    []
+  Name: sm_roller09_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.451586, y: 0.451586, z: 0.451586}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ed68ec39-5a3d-4fd0-7157-dbdde8a2ea1f
+- !<SceneObject/66b3c363-b8c2-452e-76cb-b4d73659ba7c>
+  PrefabRemaps:
+    []
+  Name: sm_roller15_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.451586, y: 0.451586, z: 0.451586}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a1bb53ed-63f9-4984-55fd-8aa3b3d93cc0
+- !<SceneObject/68dc5190-720f-4f81-57fc-2cb4bb52decc>
+  PrefabRemaps:
+    []
+  Name: sm_roller26_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.501449, y: 0.740355, z: 3.273292}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2921f268-11de-4062-4e3c-009bbccc530f
+  Components:
+    []
+- !<SceneObject/68efc11d-21ac-48e5-5b9e-f44e36ec1685>
+  PrefabRemaps:
+    []
+  Name: sm_roller12_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.501465, y: 0.740355, z: 0.795614}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 6c446cc8-c8c3-42d2-4ee8-5b4080ac1743
+  Components:
+    []
+- !<SceneObject/6b64610c-d0b5-457a-518a-0a9bfc5ac76e>
+  PrefabRemaps:
+    []
+  Name: sm_roller14_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.501465, y: 0.740355, z: 0.933424}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 77d6a781-aaa2-4bcd-78dd-3f571c0844af
+  Components:
+    []
+- !<SceneObject/6c446cc8-c8c3-42d2-4ee8-5b4080ac1743>
+  PrefabRemaps:
+    []
+  Name: sm_roller12_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.451586, y: 0.451586, z: 0.451586}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 4bedf4e7-f912-4b22-524e-6e045f575e56
+- !<SceneObject/6df50e93-5729-48ef-70ed-90c302f0e27f>
+  PrefabRemaps:
+    []
+  Name: sm_roller03_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.501465, y: 0.740355, z: 0.175471}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 3b5f11ee-3d00-4381-6ae7-272cecde58df
+  Components:
+    []
+- !<RenderMeshVisual/709e2a89-123d-4a37-5bb2-195dd8b74946>
+  PrefabRemaps:
+    []
+  Name: sm_roller07_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ea916fb-ad57-4d09-a17d-829138e49d76
+  Mesh: !<reference> ee32ed74-fc45-45f7-9341-919465b94623
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/717318a2-74fe-415a-579d-c13c2ed32ac9>
+  PrefabRemaps:
+    []
+  Name: sm_roller36_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ea916fb-ad57-4d09-a17d-829138e49d76
+  Mesh: !<reference> a9aa3a3d-b09e-46fc-b753-597228bf36c3
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/71eaa01f-5824-4709-4451-4e28918db50c>
+  PrefabRemaps:
+    []
+  Name: sm_button06_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.244817, y: 0.349628, z: 2.095502}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> aa7e05ac-8ec7-45ed-7368-b9314a52343b
+  Components:
+    []
+- !<RenderMeshVisual/738bc34b-9301-4588-6314-06cfa62fef20>
+  PrefabRemaps:
+    []
+  Name: sm_conveyor_belt_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> fc5b0dd0-1b26-4477-80a9-f0a8ad686dae
+  Mesh: !<reference> aec219e0-7f32-406b-9c2b-0f279b8ab981
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/77d6a781-aaa2-4bcd-78dd-3f571c0844af>
+  PrefabRemaps:
+    []
+  Name: sm_roller14_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.451586, y: 0.451586, z: 0.451586}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7e9684e2-a005-454f-6153-521623a2b7e1
+- !<SceneObject/7bb8807d-0017-4da3-7209-d005f961afdc>
+  PrefabRemaps:
+    []
+  Name: sm_glass_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.493495, y: 1.454012, z: 1.999157}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 59af6943-96c9-48f4-6853-da74fd5eb576
+  Components:
+    []
+- !<SceneObject/7c0cbbad-158c-4306-7d97-102676967345>
+  PrefabRemaps:
+    []
+  Name: sm_roller25_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.451587, y: 0.451587, z: 0.451587}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ee2b0112-9597-40f3-7585-6677283935da
+- !<RenderMeshVisual/7e9684e2-a005-454f-6153-521623a2b7e1>
+  PrefabRemaps:
+    []
+  Name: sm_roller14_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ea916fb-ad57-4d09-a17d-829138e49d76
+  Mesh: !<reference> 87638fad-9c9a-41e6-ad3b-498c4943867e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/802aa25c-4dfc-4bb3-52de-e274f298ff85>
+  PrefabRemaps:
+    []
+  Name: sm_conveyor_belt_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 45aaee1b-7122-4b0b-aa4f-3e9c16a7055a
+  Mesh: !<reference> 2f479231-6e03-4346-afeb-afdf1920f20c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefabAssetData/8059ff9d-eb74-4c67-ac79-a140b0235fed>
+  Prototype: !<ObjectOwner/d7fbdc99-7362-4df6-a0c5-e98ec20926c3>
+    PackagePath: ""
+    objects:
+      - !<own> 91b0e102-50fe-4705-4808-227b2f66be85
+- !<SceneObject/805f420a-431f-4525-527d-4c2343a37fb0>
+  PrefabRemaps:
+    []
+  Name: sm_roller21_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.501449, y: 0.740355, z: 2.928768}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 3e2a7a03-56f5-44d6-4719-c604d5c7ac9c
+  Components:
+    []
+- !<RenderMeshVisual/8356a198-e1ae-4487-6653-71429ba1aeb0>
+  PrefabRemaps:
+    []
+  Name: sm_roller31_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ea916fb-ad57-4d09-a17d-829138e49d76
+  Mesh: !<reference> 99cd1d0e-2b3f-4de1-b6bc-719eeefe01b5
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/851e0edc-83fd-4613-749e-8ecef6e26450>
+  PrefabRemaps:
+    []
+  Name: sm_roller24_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.501449, y: 0.740355, z: 3.135482}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> b7d73ac5-c246-4fd3-571e-b5e6b42e9a4d
+  Components:
+    []
+- !<RenderMeshVisual/860504ee-ed80-4634-74c3-c0d7bad1d483>
+  PrefabRemaps:
+    []
+  Name: sm_roller35_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ea916fb-ad57-4d09-a17d-829138e49d76
+  Mesh: !<reference> 8b628b74-b3f2-4994-830f-23c28dadb895
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/868265a0-925d-4681-60d1-34165d618351>
+  PrefabRemaps:
+    []
+  Name: sm_roller17_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ea916fb-ad57-4d09-a17d-829138e49d76
+  Mesh: !<reference> 324a89ae-7293-4650-9c43-b44de7b788af
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/8882716a-9a97-459b-554a-25384c9d29d3>
+  PrefabRemaps:
+    []
+  Name: sm_roller06_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.451586, y: 0.451586, z: 0.451586}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 327073da-4369-4a9c-707f-0951509392bd
+- !<RenderMeshVisual/88e2927c-1be6-4401-4bfa-d035ccd85fd9>
+  PrefabRemaps:
+    []
+  Name: sm_conveyor_belt_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> de6eba88-dbe9-4f05-b902-ad48c51fe6b5
+  Mesh: !<reference> 35229d73-8dd1-40a5-91f4-9d8d921dfdbb
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/897728df-0a93-4fd8-4a5f-93b97bf85c9a>
+  PrefabRemaps:
+    []
+  Name: sm_roller19_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.501449, y: 0.740355, z: 2.790958}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1a4a41de-7db8-40dc-7739-8a7fa5813c0a
+  Components:
+    []
+- !<SceneObject/8c9a520a-0c6c-4dd6-5497-700176068160>
+  PrefabRemaps:
+    []
+  Name: sm_roller15_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.501465, y: 0.740355, z: 1.002329}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 66b3c363-b8c2-452e-76cb-b4d73659ba7c
+  Components:
+    []
+- !<RenderMeshVisual/8dfa3165-5555-467a-5e62-b1703e1fdf00>
+  PrefabRemaps:
+    []
+  Name: sm_conveyor_belt_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c1188f6d-6c36-4134-8af4-12cea9f9d181
+  Mesh: !<reference> a572fbc5-650b-49d5-835e-0669cf27ece0
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/8e6f0545-98da-4426-6a0f-d5287d440c10>
+  PrefabRemaps:
+    []
+  Name: sm_roller16_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ea916fb-ad57-4d09-a17d-829138e49d76
+  Mesh: !<reference> 069e741a-34db-4225-98f8-54d386cde55a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/914c2344-f156-410b-6a0b-e2cf7f6f39a9>
+  PrefabRemaps:
+    []
+  Name: sm_roller25_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.501449, y: 0.740355, z: 3.204387}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7c0cbbad-158c-4306-7d97-102676967345
+  Components:
+    []
+- !<SceneObject/91b0e102-50fe-4705-4808-227b2f66be85>
+  PrefabRemaps:
+    []
+  Name: conveyor_belt_a61_specs
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 628228cd-89b1-4b66-7d64-b7a13cc3f743
+  Components:
+    []
+- !<RenderMeshVisual/91f36900-44aa-4a20-5fef-bab7a49db08a>
+  PrefabRemaps:
+    []
+  Name: sm_roller23_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ea916fb-ad57-4d09-a17d-829138e49d76
+  Mesh: !<reference> 9d90f827-7087-4c35-8754-ca8a90a44286
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/9a16347e-093d-43b2-596a-0b04de18db2c>
+  PrefabRemaps:
+    []
+  Name: sm_roller27_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.501449, y: 0.740355, z: 3.342196}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> ef7247e5-520b-44b6-6952-fb6f3f45aa8f
+  Components:
+    []
+- !<SceneObject/9c8de689-f26b-47e5-5838-273365e8c4bb>
+  PrefabRemaps:
+    []
+  Name: sm_button03_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.125075, y: 1.324192, z: 2.555563}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> e8eb92c3-0949-41ad-51c1-9b89254d89cd
+  Components:
+    []
+- !<SceneObject/9d0c36fc-b248-409b-4d83-fac2a9e86db2>
+  PrefabRemaps:
+    []
+  Name: sm_roller16_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.451586, y: 0.451586, z: 0.451586}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8e6f0545-98da-4426-6a0f-d5287d440c10
+- !<SceneObject/9d92c2eb-ffcc-400b-4acc-6abab1ba2fa8>
+  PrefabRemaps:
+    []
+  Name: sm_roller10_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.501465, y: 0.740355, z: 0.657805}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 50a6740b-ddf2-4160-5c71-c9c955b83e60
+  Components:
+    []
+- !<SceneObject/a0e47245-ec16-46fd-5e32-4402d1e59654>
+  PrefabRemaps:
+    []
+  Name: sm_roller35_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.451587, y: 0.451587, z: 0.451587}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 860504ee-ed80-4634-74c3-c0d7bad1d483
+- !<RenderMeshVisual/a19bb59a-c97f-4013-597c-7cf4293c7de1>
+  PrefabRemaps:
+    []
+  Name: sm_conveyor_belt_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> db4920ef-e285-487d-a395-03039b6de1ec
+  Mesh: !<reference> 70f4a828-e233-4899-88d9-f1cbddeaeea7
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/a1bb53ed-63f9-4984-55fd-8aa3b3d93cc0>
+  PrefabRemaps:
+    []
+  Name: sm_roller15_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ea916fb-ad57-4d09-a17d-829138e49d76
+  Mesh: !<reference> 6deb8b8b-c787-4740-abd4-26e712646197
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/aa7e05ac-8ec7-45ed-7368-b9314a52343b>
+  PrefabRemaps:
+    []
+  Name: sm_button06_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.007406, y: -0.004816, z: -0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.023110, y: 0.023110, z: 0.023110}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f1b0861f-ad2d-45a0-6623-40933a0c2c1a
+- !<SceneObject/abb4bed1-8404-4119-521d-948a590a2971>
+  PrefabRemaps:
+    []
+  Name: sm_button02_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.006923, y: -0.000000, z: -0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.013618, y: 0.013618, z: 0.013618}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> bde1eb4e-54e7-4e9d-5c46-066f2492811a
+- !<SceneObject/ac493e19-b34e-455f-7ad3-53e13eddf022>
+  PrefabRemaps:
+    []
+  Name: sm_roller32_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.501449, y: 0.740355, z: 3.686721}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> af40bb5f-3c2e-4e55-7d55-ab9fb8fb66e3
+  Components:
+    []
+- !<SceneObject/ad0fdb63-84c2-4f93-4cd1-64ef76fc8c2d>
+  PrefabRemaps:
+    []
+  Name: sm_roller33_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.501449, y: 0.740355, z: 3.755626}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4161520e-e964-4a72-7a0b-2eebfc7abba6
+  Components:
+    []
+- !<RenderMeshVisual/ae401bfb-48bc-4327-6719-5d40e20e40ad>
+  PrefabRemaps:
+    []
+  Name: sm_button04_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 2d9228ec-9c8a-43b7-b914-9b6443dc565d
+  Mesh: !<reference> f8ed9efd-6266-422a-ad84-4b658ee87c58
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/af40bb5f-3c2e-4e55-7d55-ab9fb8fb66e3>
+  PrefabRemaps:
+    []
+  Name: sm_roller32_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.451587, y: 0.451587, z: 0.451587}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d904312d-45cb-49fa-50b1-def736932706
+- !<SceneObject/afd3b4c9-83bd-48ce-4627-d5985d9c76e0>
+  PrefabRemaps:
+    []
+  Name: sm_roller34_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.451587, y: 0.451587, z: 0.451587}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c7e088a5-82cb-4cd8-74d4-209125f99b45
+- !<RenderMeshVisual/b12b35cc-998b-49b0-7fbd-4efa48ed45ec>
+  PrefabRemaps:
+    []
+  Name: sm_roller02_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ea916fb-ad57-4d09-a17d-829138e49d76
+  Mesh: !<reference> 786d2472-d086-4073-aad2-e45cb63c2b16
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/b161096b-e317-4c00-488e-371a21ba4637>
+  PrefabRemaps:
+    []
+  Name: sm_roller30_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.451587, y: 0.451587, z: 0.451587}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 591f8d1c-8b95-4c2d-5c0a-755d502c5137
+- !<SceneObject/b326519c-fc69-4d30-65e2-4fe149f1845d>
+  PrefabRemaps:
+    []
+  Name: sm_roller28_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.451587, y: 0.451587, z: 0.451587}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2e28077c-3aa9-4a32-7307-c1a5f49a2f5f
+- !<SceneObject/b5756cac-67ba-460d-5733-f0524aed08fd>
+  PrefabRemaps:
+    []
+  Name: sm_button04_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.244817, y: 0.339943, z: 2.011809}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2ee928a2-41d1-40e7-5ee9-9d6b6bf2ee3f
+  Components:
+    []
+- !<SceneObject/b7d73ac5-c246-4fd3-571e-b5e6b42e9a4d>
+  PrefabRemaps:
+    []
+  Name: sm_roller24_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.451587, y: 0.451587, z: 0.451587}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d5726443-53a9-4381-405f-bd548a35eae7
+- !<SceneObject/b7e4eac2-2b3b-4245-79be-17dbc8b44cf1>
+  PrefabRemaps:
+    []
+  Name: sm_button01_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.006923, y: -0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.013618, y: 0.013618, z: 0.013618}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 26e64eb1-9a2c-4b53-561a-30f6f380c1f2
+- !<SceneObject/b9bfc72a-673c-40a6-71e6-86c750f9d940>
+  PrefabRemaps:
+    []
+  Name: sm_roller28_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.501449, y: 0.740355, z: 3.411102}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> b326519c-fc69-4d30-65e2-4fe149f1845d
+  Components:
+    []
+- !<SceneObject/ba1658b7-49ea-4330-4d65-378d17594fd1>
+  PrefabRemaps:
+    []
+  Name: sm_roller23_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.501449, y: 0.740355, z: 3.066577}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 28335fb4-c40a-4aee-4ec1-86190f01b7ff
+  Components:
+    []
+- !<RenderMeshVisual/bdbd68e1-3ab0-45c9-5035-f2e056c0bcd6>
+  PrefabRemaps:
+    []
+  Name: sm_conveyor_belt_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 54a79ca0-2b0a-4613-bf6e-92d91489e5ef
+  Mesh: !<reference> 78e7419d-545f-45f8-987c-2a18cf618540
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/bde1eb4e-54e7-4e9d-5c46-066f2492811a>
+  PrefabRemaps:
+    []
+  Name: sm_button02_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> de6eba88-dbe9-4f05-b902-ad48c51fe6b5
+  Mesh: !<reference> e9a4b7c3-89a9-4bbb-bbbf-64bb06be190b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/be10fb2c-2b33-4c64-638f-7bd485b79387>
+  PrefabRemaps:
+    []
+  Name: sm_roller29_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.451587, y: 0.451587, z: 0.451587}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> db86e792-6343-4cf6-45aa-06bae01a877d
+- !<SceneObject/bfd92bd6-bb9f-4f49-5f80-5698cf49fa3b>
+  PrefabRemaps:
+    []
+  Name: sm_conveyor_belt_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.305685, y: 1.155476, z: 2.000022}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 2.000061, y: 2.000061, z: 2.000061}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> cfdc75b2-d4d7-4788-685b-1cf101b9481e
+    - !<own> 532e3d54-d28d-4afb-79fa-01c88d6e2fe1
+    - !<own> 387b1ae3-f39d-4ad6-5ff5-b23291c00e71
+    - !<own> c48611a5-029b-4e4f-515d-bab12143dc68
+    - !<own> 88e2927c-1be6-4401-4bfa-d035ccd85fd9
+    - !<own> bdbd68e1-3ab0-45c9-5035-f2e056c0bcd6
+    - !<own> a19bb59a-c97f-4013-597c-7cf4293c7de1
+    - !<own> 8dfa3165-5555-467a-5e62-b1703e1fdf00
+    - !<own> 318bb48c-0e2e-4dee-6460-9724e30167e6
+    - !<own> dbc913b3-9e88-495b-6a1a-75b789295b31
+    - !<own> 802aa25c-4dfc-4bb3-52de-e274f298ff85
+    - !<own> 738bc34b-9301-4588-6314-06cfa62fef20
+    - !<own> 5688d798-46e7-4577-7db2-9736be95daf0
+    - !<own> 03793f02-cd7d-4303-42fa-dc40a6295ef8
+    - !<own> 088a51d6-9efd-469c-680d-4d99d4b2c086
+    - !<own> 2435a79b-c179-4a04-40aa-b677ab5603bb
+    - !<own> d8b042da-f37c-4b51-48c1-b9ec75453850
+    - !<own> 0aca721d-6086-4d3b-7594-5764818c95a2
+    - !<own> 02806cfb-5e08-4b62-726e-8ec47b6746a4
+- !<RenderMeshVisual/c48611a5-029b-4e4f-515d-bab12143dc68>
+  PrefabRemaps:
+    []
+  Name: sm_conveyor_belt_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 7ca1b502-1e21-4659-9d1e-1e5b98d822c6
+  Mesh: !<reference> b81ae8f8-7e06-4ffb-ae97-b2b7b3e9ffd6
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/c5d4a024-b98f-414d-7d08-e58351558677>
+  PrefabRemaps:
+    []
+  Name: sm_roller04_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.501465, y: 0.740355, z: 0.244375}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 63490e69-9836-4707-6336-e14fd2a82f1c
+  Components:
+    []
+- !<RenderMeshVisual/c7e088a5-82cb-4cd8-74d4-209125f99b45>
+  PrefabRemaps:
+    []
+  Name: sm_roller34_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ea916fb-ad57-4d09-a17d-829138e49d76
+  Mesh: !<reference> 9c2e35e8-a50a-426c-9aac-cb2e0e36e0a0
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/cfdc75b2-d4d7-4788-685b-1cf101b9481e>
+  PrefabRemaps:
+    []
+  Name: sm_conveyor_belt_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 85870156-05cd-40ba-9b4a-817709e24ee9
+  Mesh: !<reference> 9074fdc0-7fc3-43b5-91df-e6509fedf123
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/d09e4485-df78-4142-5253-c9ac2031057f>
+  PrefabRemaps:
+    []
+  Name: sm_roller20_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.451587, y: 0.451587, z: 0.451587}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 24490221-9476-47d2-6101-92c8b712bdee
+- !<RenderMeshVisual/d5726443-53a9-4381-405f-bd548a35eae7>
+  PrefabRemaps:
+    []
+  Name: sm_roller24_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ea916fb-ad57-4d09-a17d-829138e49d76
+  Mesh: !<reference> 98f6db93-f016-4c8d-aef4-9590957bd71f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/d68ca029-cc3b-4c15-747b-bc26d73cd72d>
+  PrefabRemaps:
+    []
+  Name: sm_roller20_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.501449, y: 0.740355, z: 2.859863}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> d09e4485-df78-4142-5253-c9ac2031057f
+  Components:
+    []
+- !<SceneObject/d6e24008-dfe2-4bb7-448a-d534e2e8ce58>
+  PrefabRemaps:
+    []
+  Name: sm_roller29_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.501449, y: 0.740355, z: 3.480006}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> be10fb2c-2b33-4c64-638f-7bd485b79387
+  Components:
+    []
+- !<RenderMeshVisual/d8b042da-f37c-4b51-48c1-b9ec75453850>
+  PrefabRemaps:
+    []
+  Name: sm_conveyor_belt_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d4752355-5433-42cc-a2dd-9eba6b2e19ca
+  Mesh: !<reference> f3b5ee25-d197-4382-a378-ac75bcf3d83d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/d904312d-45cb-49fa-50b1-def736932706>
+  PrefabRemaps:
+    []
+  Name: sm_roller32_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ea916fb-ad57-4d09-a17d-829138e49d76
+  Mesh: !<reference> f5637cda-4d64-473e-b7c0-fac133b9efc5
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/d941a07c-eca3-4224-7a75-e52e9ec05aaa>
+  PrefabRemaps:
+    []
+  Name: sm_roller06_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.501465, y: 0.740355, z: 0.382185}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8882716a-9a97-459b-554a-25384c9d29d3
+  Components:
+    []
+- !<RenderMeshVisual/db86e792-6343-4cf6-45aa-06bae01a877d>
+  PrefabRemaps:
+    []
+  Name: sm_roller29_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ea916fb-ad57-4d09-a17d-829138e49d76
+  Mesh: !<reference> 7418e65a-272a-44f4-a2f6-3011eec3e444
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/dbc913b3-9e88-495b-6a1a-75b789295b31>
+  PrefabRemaps:
+    []
+  Name: sm_conveyor_belt_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 09d7ed33-cc93-47ec-8a8b-d15fce004c3f
+  Mesh: !<reference> ba56426c-ad3c-4f3c-a8cd-3d69d3d38182
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/dbe2fa83-ca64-4653-414c-1df4dc0ae8a6>
+  PrefabRemaps:
+    []
+  Name: sm_button05_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 2d9228ec-9c8a-43b7-b914-9b6443dc565d
+  Mesh: !<reference> e039de13-7847-4e1d-9351-97b5524f3319
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/e06df468-c3e5-4b7d-7229-85498e1c95b1>
+  PrefabRemaps:
+    []
+  Name: sm_roller01_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ea916fb-ad57-4d09-a17d-829138e49d76
+  Mesh: !<reference> e8016ba3-0cdf-4b2d-8283-95e6ce960519
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/e6035158-c6f2-4366-73ce-a0dac7bf7cf0>
+  PrefabRemaps:
+    []
+  Name: sm_roller19_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ea916fb-ad57-4d09-a17d-829138e49d76
+  Mesh: !<reference> c9d3dcea-facd-48b2-8ce9-e8df16d53868
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/e6d06856-5409-4244-6a80-92bb621143ec>
+  PrefabRemaps:
+    []
+  Name: sm_button05_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.007406, y: -0.004816, z: -0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.023110, y: 0.023110, z: 0.023110}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> dbe2fa83-ca64-4653-414c-1df4dc0ae8a6
+- !<SceneObject/e8eb92c3-0949-41ad-51c1-9b89254d89cd>
+  PrefabRemaps:
+    []
+  Name: sm_button03_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.006923, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.013618, y: 0.013618, z: 0.013618}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f192cd56-23b1-4e1d-68b9-bad80e97926d
+- !<SceneObject/eafad30b-a364-4981-4094-5154fd2295c6>
+  PrefabRemaps:
+    []
+  Name: sm_button02_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.125075, y: 1.369465, z: 2.555564}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> abb4bed1-8404-4119-521d-948a590a2971
+  Components:
+    []
+- !<SceneObject/ed3b95c3-189c-4c8a-43f9-ec9ba5aec3e1>
+  PrefabRemaps:
+    []
+  Name: sm_roller36_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.501449, y: 0.740355, z: 3.962341}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 617fe473-5fb2-470a-4050-ea7e37049a74
+  Components:
+    []
+- !<RenderMeshVisual/ed68ec39-5a3d-4fd0-7157-dbdde8a2ea1f>
+  PrefabRemaps:
+    []
+  Name: sm_roller09_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ea916fb-ad57-4d09-a17d-829138e49d76
+  Mesh: !<reference> 51403d86-1137-4d84-b24d-eb1e2c256a0f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/ee2b0112-9597-40f3-7585-6677283935da>
+  PrefabRemaps:
+    []
+  Name: sm_roller25_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ea916fb-ad57-4d09-a17d-829138e49d76
+  Mesh: !<reference> 8675b716-fe1d-414b-8137-d5548100e751
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/ef271010-7661-4632-5aef-15a56f9868cc>
+  PrefabRemaps:
+    []
+  Name: sm_roller21_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ea916fb-ad57-4d09-a17d-829138e49d76
+  Mesh: !<reference> f20f1482-3d40-402b-9a4f-c776113bd02a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/ef7247e5-520b-44b6-6952-fb6f3f45aa8f>
+  PrefabRemaps:
+    []
+  Name: sm_roller27_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.451587, y: 0.451587, z: 0.451587}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f80a5d7d-bd67-48ad-605a-3c4cfe6818a4
+- !<SceneObject/efd762ce-2774-46fe-4897-e42b46a8c8be>
+  PrefabRemaps:
+    []
+  Name: sm_roller07_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.501465, y: 0.740355, z: 0.451090}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 0f0230bb-e300-46bc-6cef-1b111f6c37e3
+  Components:
+    []
+- !<SceneObject/f0bc8f20-c0fb-4fdd-5908-87b770e16c47>
+  PrefabRemaps:
+    []
+  Name: sm_roller01_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.451586, y: 0.451586, z: 0.451586}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e06df468-c3e5-4b7d-7229-85498e1c95b1
+- !<RenderMeshVisual/f192cd56-23b1-4e1d-68b9-bad80e97926d>
+  PrefabRemaps:
+    []
+  Name: sm_button03_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 54a79ca0-2b0a-4613-bf6e-92d91489e5ef
+  Mesh: !<reference> 556f9b56-4a49-4ca3-87c6-84d4c01321d5
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/f1b0861f-ad2d-45a0-6623-40933a0c2c1a>
+  PrefabRemaps:
+    []
+  Name: sm_button06_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 2d9228ec-9c8a-43b7-b914-9b6443dc565d
+  Mesh: !<reference> cf73ebf9-02eb-4d22-8b3c-4a749a60a709
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/f1baa0c8-3f98-45f5-4e70-e3f0dee261f2>
+  PrefabRemaps:
+    []
+  Name: sm_button05_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.244817, y: 0.349628, z: 2.186318}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> e6d06856-5409-4244-6a80-92bb621143ec
+  Components:
+    []
+- !<RenderMeshVisual/f80a5d7d-bd67-48ad-605a-3c4cfe6818a4>
+  PrefabRemaps:
+    []
+  Name: sm_roller27_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ea916fb-ad57-4d09-a17d-829138e49d76
+  Mesh: !<reference> 0336a1a1-7943-4180-a6d3-a53e245f4f85
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/f8d2e246-4ca3-40c4-6285-1406d2ef9e3d>
+  PrefabRemaps:
+    []
+  Name: sm_roller34_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.501449, y: 0.740355, z: 3.824531}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> afd3b4c9-83bd-48ce-4627-d5985d9c76e0
+  Components:
+    []
+- !<SceneObject/f981aa29-e35e-4b2e-48df-c477454caf1c>
+  PrefabRemaps:
+    []
+  Name: sm_roller13_a61_mesh_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.451586, y: 0.451586, z: 0.451586}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 310fbb47-449e-4ff6-7341-f4922f0c3391
+- !<RenderMeshVisual/fa02b1e3-ec66-467e-4776-38c5207bc354>
+  PrefabRemaps:
+    []
+  Name: sm_roller22_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ea916fb-ad57-4d09-a17d-829138e49d76
+  Mesh: !<reference> ffe81eff-dfef-46d6-a9e6-deff679f2b4e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/fa2ebf48-196e-4917-628b-c43bdfff3b62>
+  PrefabRemaps:
+    []
+  Name: sm_roller03_a61_mesh_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ea916fb-ad57-4d09-a17d-829138e49d76
+  Mesh: !<reference> 386a9068-bdd5-4679-bab2-9a49b08f1234
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/fb6d260d-7954-405a-4c09-dfc6c49ab137>
+  PrefabRemaps:
+    []
+  Name: sm_roller18_a61_obj_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.501465, y: 0.740355, z: 1.209044}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 28cca36a-e515-4a5d-7943-2d02ba6c5714
+  Components:
+    []

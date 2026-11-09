@@ -1,0 +1,72 @@
+- !<AssetImportMetadata/d94015e4-e483-484a-a363-65913f1002c0>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 3ea8524e-2afd-4f51-9209-42ceb4707128
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 3ea8524e-2afd-4f51-9209-42ceb4707128
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> c4071268-6986-4603-b368-e4eeec575b17
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/c4071268-6986-4603-b368-e4eeec575b17>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: a14831a3-2e93-4140-b01d-84da9b77c117
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    cardScale: false
+    detail: false
+    leaderMesh: false
+    lineMaterial: false
+    markerMesh: false
+    target: false
+    title: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - target: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      cardScale: 1.800000
+      title: Congestion detected
+      detail: Parcels are queuing where the rollers meet the transfer belt.
+      markerMesh: !<reference.RenderMesh> 00000000-0000-0000-0000-000000000000
+      leaderMesh: !<reference.RenderMesh> 00000000-0000-0000-0000-000000000000
+      lineMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<b>FlowSight Congestion Alert</b>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Placement"}'
+    - '// @input SceneObject target {"hint":"Point on the machine the alert refers to (top of the stuck parcel at the transfer point)"}'
+    - '// @input float cardScale = 1.8 {"hint":"Card scale (content is authored for 110 cm viewing)", "widget":"slider", "min":1, "max":3, "step":0.05}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Content"}'
+    - '// @input string title = "Congestion detected" {"hint":"Alert title"}'
+    - '// @input string detail = "Parcels are queuing where the rollers meet the transfer belt." {"hint":"One-line explanation under the title"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Visuals"}'
+    - '// @input Asset.RenderMesh markerMesh {"hint":"Sphere mesh for the marker"}'
+    - '// @input Asset.RenderMesh leaderMesh {"hint":"Cylinder mesh for the leader line"}'
+    - '// @input Asset.Material lineMaterial {"hint":"Unlit material cloned for the marker and leader"}'
+    - '// @ui {"widget":"group_end"}'

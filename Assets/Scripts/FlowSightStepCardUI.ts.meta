@@ -1,0 +1,56 @@
+- !<AssetImportMetadata/367d08d9-c50e-4b09-b404-34754ffafe64>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 13777c84-2b55-4c67-9420-d71fd5d333ad
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 13777c84-2b55-4c67-9420-d71fd5d333ad
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 1fb5bf71-96b0-45fd-b187-fc5331f94963
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/1fb5bf71-96b0-45fd-b187-fc5331f94963>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 65042f78-3dbc-4b67-b65b-d6e6b59ae6bf
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    padding: false
+    panelWidth: false
+    stepCount: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - panelWidth: !<float> 21.000000
+      padding: 1.400000
+      stepCount: !<float> 3.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<b>FlowSight Inspection Step Card</b>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Layout"}'
+    - '// @input float panelWidth = 21 {"hint":"Card width in cm (before the root scale is applied)", "widget":"slider", "min":16, "max":30, "step":0.5}'
+    - '// @input float padding = 1.4 {"hint":"Inner padding in cm", "widget":"slider", "min":0.5, "max":3, "step":0.1}'
+    - '// @input float stepCount = 3 {"hint":"Number of steps shown in the progress row"}'
+    - '// @ui {"widget":"group_end"}'

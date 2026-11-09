@@ -1,0 +1,61 @@
+- !<AssetImportMetadata/117ed2da-e25c-4960-b2c4-26c677c40464>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> b24a933d-3d1d-46fa-b082-8dc59179a315
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> b24a933d-3d1d-46fa-b082-8dc59179a315
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 222029ec-bda4-4240-a9fa-5dc62931c129
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/222029ec-bda4-4240-a9fa-5dc62931c129>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: a3054124-6d6a-42ca-bbd9-ec89e530c55f
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    miniOffset: false
+    padding: false
+    panelWidth: false
+    stationId: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - stationId: Transfer 02
+      panelWidth: !<float> 30.000000
+      padding: 1.800000
+      miniOffset: !<Vec3> {x: 0.000000, y: 10.000000, z: 0.000000}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<b>FlowSight Status</b>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Content"}'
+    - '// @input string stationId = "Transfer 02" {"hint":"Station identifier shown in the header"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Layout"}'
+    - '// @input float panelWidth = 20 {"hint":"Compact card width in cm (before the root scale is applied)", "widget":"slider", "min":16, "max":30, "step":0.5}'
+    - '// @input float padding = 1.4 {"hint":"Inner padding in cm", "widget":"slider", "min":0.5, "max":3, "step":0.1}'
+    - '// @input vec3 miniOffset = {0,10,0} {"hint":"Local offset of the mini status pill, in cm (it sits above the inspection step card)"}'
+    - '// @ui {"widget":"group_end"}'

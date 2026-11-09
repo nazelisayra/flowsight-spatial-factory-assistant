@@ -1,0 +1,107 @@
+- !<AssetImportMetadata/293402b9-a3fe-4da4-99b6-85c75b0b040c>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 4a76972d-fa53-4e5b-a854-cae70900a42e
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 4a76972d-fa53-4e5b-a854-cae70900a42e
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 9cf8f04b-a570-46c5-9853-444e5a06af3d
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/9cf8f04b-a570-46c5-9853-444e5a06af3d>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: e3b8cb9d-a22f-4e1b-891c-b827e1ec8552
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    alertCard: false
+    callouts: false
+    congestedFlow: false
+    congestedQueue: false
+    congestedSpeed: false
+    conveyorFx: false
+    flowRate: false
+    nominalFlow: false
+    nominalQueue: false
+    nominalSpeed: false
+    queueRate: false
+    recoveryBoost: false
+    speedRate: false
+    startState: false
+    startStepsDone: false
+    statusCard: false
+    stepCard: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - statusCard: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      alertCard: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      stepCard: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+      callouts: !<MappingBased.AssignableType_4> 00000000-0000-0000-0000-000000000000
+      conveyorFx: !<MappingBased.AssignableType_5> 00000000-0000-0000-0000-000000000000
+      startState: running
+      startStepsDone: !<float> 0.000000
+      nominalSpeed: 1.200000
+      nominalQueue: !<float> 3.000000
+      nominalFlow: !<float> 42.000000
+      congestedSpeed: 0.400000
+      congestedQueue: !<float> 11.000000
+      congestedFlow: !<float> 18.000000
+      speedRate: 0.450000
+      queueRate: 0.900000
+      flowRate: !<float> 9.000000
+      recoveryBoost: 2.500000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<b>FlowSight Controller</b>"}'
+    - '// @ui {"widget":"label", "label":"All telemetry and machine responses are simulated."}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Modules"}'
+    - '// @input AssignableType_1 statusCard {"hint":"Machine status (compact card / mini pill)"}'
+    - '// @input AssignableType_2 alertCard {"hint":"Congestion alert at the transfer zone (Warning)"}'
+    - '// @input AssignableType_3 stepCard {"hint":"Step-by-step inspection card (Inspection)"}'
+    - '// @input AssignableType_4 callouts {"hint":"Spatial callouts on the model"}'
+    - '// @input AssignableType_5 conveyorFx {"hint":"Roller, parcel and highlight animation"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Preview"}'
+    - "// @input string startState = \"running\" {\"hint\":\"State the lens starts in. Keep 'running' for the real flow; other values help review a state in Preview.\", \"widget\":\"combobox\", \"values\":[{\"label\":\"Running\", \"value\":\"running\"}, {\"label\":\"Warning\", \"value\":\"warning\"}, {\"label\":\"Inspection\", \"value\":\"inspection\"}, {\"label\":\"Resolved\", \"value\":\"resolved\"}]}"
+    - '// @input float startStepsDone {"hint":"Inspection steps already checked when starting in Inspection (0-3), for review only", "widget":"slider", "min":0, "max":3, "step":1}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Baseline telemetry (Running / Resolved)"}'
+    - '// @input float nominalSpeed = 1.2 {"hint":"Belt speed in m/s"}'
+    - '// @input float nominalQueue = 3 {"hint":"Queue length in items"}'
+    - '// @input float nominalFlow = 42 {"hint":"Flow rate in units/min"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Congestion telemetry (Warning)"}'
+    - '// @input float congestedSpeed = 0.4 {"hint":"Belt speed in m/s while congested"}'
+    - '// @input float congestedQueue = 11 {"hint":"Queue length the congestion builds up to"}'
+    - '// @input float congestedFlow = 18 {"hint":"Flow rate in units/min while congested"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Ramp rates"}'
+    - '// @input float speedRate = 0.45 {"hint":"Belt speed change per second (m/s²)"}'
+    - '// @input float queueRate = 0.9 {"hint":"Queue change per second (items/s)"}'
+    - '// @input float flowRate = 9 {"hint":"Flow change per second (units/min per s)"}'
+    - '// @input float recoveryBoost = 2.5 {"hint":"Speed-up applied to the ramps while recovering in Resolved"}'
+    - '// @ui {"widget":"group_end"}'

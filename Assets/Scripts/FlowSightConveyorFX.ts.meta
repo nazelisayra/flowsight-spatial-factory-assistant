@@ -1,0 +1,105 @@
+- !<AssetImportMetadata/c4c12366-bd60-40e3-a03c-e9a9c65a2387>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 00e4dfbc-4a9a-4375-8b3c-5253166004ac
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 00e4dfbc-4a9a-4375-8b3c-5253166004ac
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> bd82b0e5-9a34-4387-a192-a40272e099bd
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/bd82b0e5-9a34-4387-a192-a40272e099bd>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: b98a2a30-3bf2-4488-a6dd-7b628c6b0308
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    beltEnd: false
+    beltStart: false
+    boxMesh: false
+    edgeThickness: false
+    flowSpacing: false
+    highlightMaterial: false
+    jamPoint: false
+    parcelMaterial: false
+    parcelSize: false
+    poolSize: false
+    queueGap: false
+    resolvedColor: false
+    rollerRadiusCm: false
+    rollerRoot: false
+    visualSpeedScale: false
+    warningColor: false
+    zoneCenter: false
+    zoneSize: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - rollerRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      rollerRadiusCm: 2.900000
+      beltStart: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      beltEnd: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      jamPoint: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      zoneCenter: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      boxMesh: !<reference.RenderMesh> 00000000-0000-0000-0000-000000000000
+      parcelMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      parcelSize: !<Vec3> {x: 34.000000, y: 22.000000, z: 40.000000}
+      queueGap: !<float> 6.000000
+      flowSpacing: !<float> 95.000000
+      visualSpeedScale: 0.400000
+      poolSize: !<float> 10.000000
+      highlightMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      zoneSize: !<Vec3> {x: 80.000000, y: 34.000000, z: 100.000000}
+      edgeThickness: 1.600000
+      warningColor: !<Vec3> {x: 1.000000, y: 0.550000, z: 0.080000}
+      resolvedColor: !<Vec3> {x: 0.300000, y: 0.950000, z: 0.450000}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<b>FlowSight Conveyor FX</b>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Model references"}'
+    - '// @input SceneObject rollerRoot {"hint":"Model node that contains the roller meshes (searched recursively)"}'
+    - '// @input float rollerRadiusCm = 2.9 {"hint":"Roller radius in cm, measured from the model"}'
+    - '// @input SceneObject beltStart {"hint":"Belt surface at the infeed end"}'
+    - '// @input SceneObject beltEnd {"hint":"Belt surface at the outfeed end"}'
+    - '// @input SceneObject jamPoint {"hint":"Transfer point where parcels jam during congestion"}'
+    - '// @input SceneObject zoneCenter {"hint":"Centre of the congestion highlight volume"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Parcels"}'
+    - '// @input Asset.RenderMesh boxMesh {"hint":"Box mesh for parcels and the highlight volume"}'
+    - '// @input Asset.Material parcelMaterial {"hint":"Parcel material"}'
+    - '// @input vec3 parcelSize = {34,22,40} {"hint":"Parcel size in cm: length along the belt, height, width across"}'
+    - '// @input float queueGap = 6 {"hint":"Gap between queued parcels in cm", "widget":"slider", "min":2, "max":30, "step":1}'
+    - '// @input float flowSpacing = 95 {"hint":"Distance between parcels in free flow, cm", "widget":"slider", "min":50, "max":200, "step":5}'
+    - '// @input float visualSpeedScale = 0.4 {"hint":"Visual speed as a fraction of the simulated belt speed (keeps motion readable)", "widget":"slider", "min":0.1, "max":1, "step":0.05}'
+    - '// @input float poolSize = 10 {"hint":"How many parcels to pool"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Highlight"}'
+    - '// @input Asset.Material highlightMaterial {"hint":"Additive material for the congestion volume"}'
+    - '// @input vec3 zoneSize = {80,34,100} {"hint":"Highlight volume size in cm (along belt, height, across)"}'
+    - "// @input float edgeThickness = 1.6 {\"hint\":\"Thickness of the highlight's wireframe edges in cm\", \"widget\":\"slider\", \"min\":0.5, \"max\":5, \"step\":0.1}"
+    - '// @input vec3 warningColor = {1,0.55,0.08} {"hint":"Warning colour", "widget":"color"}'
+    - '// @input vec3 resolvedColor = {0.3,0.95,0.45} {"hint":"Resolved flash colour", "widget":"color"}'
+    - '// @ui {"widget":"group_end"}'
