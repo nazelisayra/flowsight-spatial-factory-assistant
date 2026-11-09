@@ -10,7 +10,7 @@ FlowSight puts a conveyor's status, alerts and inspection steps directly on the 
 
 Built for **[Learn AR with SPECS](https://learn-specs.devpost.com/)** on Devpost. The design brief is in [`devpost/design-brief.md`](devpost/design-brief.md).
 
-**Demo video:** _YouTube link to be added_
+**Demo video:** [Watch FlowSight on YouTube](https://youtu.be/dFwQzenxFfQ)
 
 ---
 
