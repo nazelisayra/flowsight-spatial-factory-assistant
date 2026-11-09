@@ -58,8 +58,9 @@ Other choices:
 You don't need SPECS glasses.
 
 1. **Install [Lens Studio](https://ar.snap.com/download) 5.24.1 or newer.** The project was saved with 5.24.1 (build 26100516), so older versions may not open it.
-2. **Clone the repo:**
+2. **Clone the repo with [Git LFS](https://git-lfs.com) installed.** Meshes, textures and packages are stored in LFS, as Lens Studio sets up by default, so GitHub's "Download ZIP" doesn't include them.
    ```bash
+   git lfs install
    git clone https://github.com/nazelisayra/flowsight-spatial-factory-assistant.git
    ```
 3. **Open `FlowSight.esproj`** in Lens Studio (File → Open Project). On first open, Lens Studio rebuilds the `Cache/` and `Support/` folders from the project and the packages in `Packages/`. This can take a minute.
